@@ -157,3 +157,4 @@ document.getElementById("SettlementP").innerHTML = poss*settlement.length;
 document.getElementById("FortP").innerHTML = poss*fort.length;
 document.getElementById("TempleP").innerHTML = poss*temple.length;
 document.getElementById("TravelP").innerHTML = poss*travel.length;
+getSettlement();
