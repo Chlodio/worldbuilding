@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+h1, h2, h3, h4, h5, h6{
+	margin: 10 0 10 0;
+	padding: 0;
+	border: 0;
+
+}
+
+ul { text-align: left;}
+
+body {
+	background-color: #c77a36;
+	background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom:2%;
+	width:100%;
+	display:inline-block;
+}
+
+#rightSide {
+	width:50%;
+	float:left;
+}
+
+#leftSide {
+	width:50%;
+	float:left;
+}
+
+
+#sinisterTable{
+
+}
+
+#genericTable{
+}
+
+th { background-color: hsla(50, 25%, 25%, 0.4); }
+td  { background-color: hsla(100, 100%, 100%, 0.4);}
+tr, th, td { border: 1px solid black; padding: 10px; }
+
+b ,.info {
+  text-decoration: underline;
+  text-decoration-style:dotted;
+}
+
+.PaSI{
+	width:95;
+	float:right;
+}
+
+.MaSI{
+	width:95;
+	float:left;
+}
+
+
+
+#simpleName p { padding:0 10;}
+#simpleName h5 { padding:0 5;}
+
+#simpleName{
+	float:left;
+	background-color: hsla(100, 100%, 100%, 0.4);
+	width:500px;
+	border: 1px solid black;
+	display:block;
+}
+
+p {
+	word-wrap: break-word;
+}
+
+#patriarchT {
+	text-align: left;
+}
+
+#patriarchT td { height:50; min-width:150;}
+
+
+article {
+
+
+	padding: 0 50;
+}
+
+footer {
+	width:100%;
+	padding-top:50;
+	bottom:0;
+	display:inline-block;
+	font-size:10px;
+	font-weight: bold;
+	text-align:center;
+}
+
+nav { margin-bottom:10;}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsla(0, 0%, 75%, 0.5);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: hsla(0, 10%, 75%, 0.5);
+}
